@@ -1,4 +1,4 @@
-**Using Type Definitions in Sandboxels Mods**
+***Using Type Definitions in Sandboxels Mods***
 
 If you want to see function parameters and what’s available inside an element definition while modding Sandboxels, you can use the provided .d.ts file.
 
