@@ -1,4 +1,4 @@
-**Using Type Definitions in Sandboxels Mods**
+# Using Type Definitions in Sandboxels Mods
 
 **Note**:
 * **This is not full typescript support. This only shows parameter hints and whats availble in the element definition**
