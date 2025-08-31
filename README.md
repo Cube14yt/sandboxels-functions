@@ -1,25 +1,57 @@
-## Using Type Definitions in Sandboxels Mods
+# Using Type Definitions in Sandboxels Mods
 
-**Note**:
-* **This is not full typescript support. This only shows parameter hints and whats availble in the element definition**
-* This .d.ts file is incomplete.
-* Some functions arent done yet.
-* Contributions and suggestions are welcome!
+**Disclaimer:**  
+This is **not full TypeScript support**.  
+The `.d.ts` file only provides **parameter hints, autocomplete, and available properties** in element definitions.  
+It will not catch all type errors or enforce strict type checking.
 
-If you want to see function parameters and what’s available inside an element definition while modding Sandboxels, you can use the provided .d.ts file.
+---
 
-**Setup**:
+## Features
 
-* Put the sandboxels-functions.d.ts file in your mod folder.
+- See function parameters while writing mods  
+- Autocomplete for properties inside element definitions  
+- Helps reduce constant lookups and guesswork  
 
-* Add this line at the top of your mod file:
+---
+
+## Notes
+
+- The `.d.ts` file is **incomplete** (work in progress)  
+- Some functions and properties are missing  
+- Contributions and suggestions are welcome!  
+
+---
+
+## Setup
+
+1. Download or copy the `sandboxels-types.d.ts` file into your **mod folder**.  
+
+2. At the very top of your mod file, add:
 
 ```js
 /// <reference path="./sandboxels-types.d.ts" />
 ```
 
-**Result**:
+3. Open your mod in VS Code (or another editor with IntelliSense).  
+   You should now see parameter hints and autocomplete suggestions while coding.  
 
-* Functions will now show their parameters and expected values.
+---
 
-* You’ll also see the properties and options available in an element definition when you’re writing mods.
+## Example Result
+
+With the type definitions in place, you’ll get:
+
+- Function hints with parameter names and types  
+- Autocomplete suggestions for element definition options  
+
+---
+
+## Contributing
+
+Want to help improve this? You can:  
+- Add missing functions or properties  
+- Improve type accuracy  
+- Suggest better organization  
+
+Pull requests and issues are always appreciated!  
