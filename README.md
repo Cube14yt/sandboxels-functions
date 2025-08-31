@@ -15,7 +15,7 @@ If you want to see function parameters and what’s available inside an element 
 * Add this line at the top of your mod file:
 
 ```js
-/// <reference path="./sandboxels-functions.d.ts" />
+/// <reference path="./sandboxels-types.d.ts" />
 ```
 
 **Result**:
