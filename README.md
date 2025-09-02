@@ -25,13 +25,9 @@ It will not catch all type errors or enforce strict type checking.
 
 ## Setup
 
-1. Download or copy the `sandboxels-types.d.ts` file into your **mod folder**.  
+1. Create a new folder named `types` (Case sensitive) and put a download or copy of `sandboxels-types.d.ts` in it
 
-2. At the very top of your mod file, add:
-
-```js
-/// <reference path="./sandboxels-types.d.ts" />
-```
+2. Place `jsconfig.json` in the root file (e.g. sandboxels-main)
 
 3. Open your mod in VS Code (or another editor with IntelliSense).  
    You should now see parameter hints and autocomplete suggestions while coding.  
