@@ -35,7 +35,8 @@ It will not catch all type errors or enforce strict type checking.
 ---
 
 ## Example Result
-![After](after.gif)
+![Before](images/autocorrect_before.png)
+![Before](images/function_before.png)
 With the type definitions in place, you’ll get:
 
 - Function hints with parameter names and types  
