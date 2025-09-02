@@ -41,10 +41,11 @@ Before .d.ts integration
 
 ![Before](images/function_before.png)
 
-With the type definitions in place, you’ll get:
+After .d.ts integration
 
-- Function hints with parameter names and types  
-- Autocomplete suggestions for element definition options  
+![After](images/autocorrect_after.png)
+
+![After](images/function_after.png)
 
 ---
 
