@@ -24,8 +24,8 @@ It will not catch all type errors or enforce strict type checking.
 ---
 
 ## Setup
-1. Create a folder named `types` and place a copy of `sandboxels-types.d.ts` inside.
-2. Add a `jsconfig.json` at the root (e.g. sandboxels-main) to enable IntelliSense across your mods.
+1. Create a folder named `types` and place a copy of `globals.d.ts` inside.
+2. Add a `tsconfig.json` at the root (e.g. sandboxels-main) to enable IntelliSense across your mods.
 3. Open your project in VS Code (or any editor with IntelliSense). Hints and autocomplete should now appear.
 
 ---
