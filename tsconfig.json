@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "checkJs": false,
-    "baseUrl": ".",
-    "paths": {
-      "@mods/*": ["mods/*"],
-      "@types/*": ["types/*"]
-    }
+    "noEmit": true,
+    "typeRoots": ["types"],
+    "skipLibCheck": true
   },
   "include": [
     "mods/**/*",
     "types/**/*.d.ts"
   ],
-  "exclude": ["node_modules"]  // Exclude dependencies
+  "exclude": ["node_modules"]
 }
